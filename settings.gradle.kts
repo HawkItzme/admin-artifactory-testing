@@ -7,7 +7,6 @@ pluginManagement {
                 password = "Sec@syed0786"
             }
         }
-        gradlePluginPortal()
     }
 }
 dependencyResolutionManagement {
