@@ -1,10 +1,13 @@
 pluginManagement {
     repositories {
         maven {
-            url = uri("https://mytrail.jfrog.io/artifactory/admin-virtual-repo/")
+            //Hybrid Solution Admin URL for Google Maven Artifacts
+            //  url = uri("https://trialrzp461.jfrog.io/artifactory/hybrid-virtual-repo/")
+            //Without Curation Catalog Admin Virtual Repo URL
+            url = uri("https://trialrzp461.jfrog.io/artifactory/proj1-admin-virtual-repo/")
             credentials {
-                username = "secsyed83@gmail.com"
-                password = "Sec@syed0786"
+                username = "musarif@ebay.com"
+                password = "Mustafa@1234"
             }
         }
     }
@@ -13,10 +16,13 @@ dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
         maven {
-            url = uri("https://mytrail.jfrog.io/artifactory/admin-virtual-repo/")
+            //Hybrid Solution Admin URL for Google Maven Artifacts
+            //  url = uri("https://trialrzp461.jfrog.io/artifactory/hybrid-virtual-repo/")
+            //Without Curation Catalog Admin Virtual Repo URL
+            url = uri("https://trialrzp461.jfrog.io/artifactory/proj1-admin-virtual-repo/")
             credentials {
-                username = "secsyed83@gmail.com"
-                password = "Sec@syed0786"
+                username = "musarif@ebay.com"
+                password = "Mustafa@1234"
             }
         }
     }
